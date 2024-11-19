@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveyhawk | Dokumentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menüleiste -->
+    <div id="menu"></div>
+
+    <div class="layout">
+        <!-- Seitenleiste -->
+        <aside id="sidebar"></aside>
+
+        <!-- Hauptinhalt -->
+        <main class="content">
+            <h1>Willkommen bei Surveyhawk</h1>
+            <p>Surveyhawk ist Ihr Werkzeug zur Analyse und Verbesserung der Gesundheit von Code-Repositories.</p>
+
+            <section>
+                <h2>Features</h2>
+                <p>Surveyhawk bietet eine Vielzahl von Funktionen, darunter:</p>
+                <ul>
+                    <li>Analyse von Repository-Metriken</li>
+                    <li>Automatisierte Visualisierung der Ergebnisse</li>
+                    <li>Verbesserung der Codequalität</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Erste Schritte</h2>
+                <p>Um loszulegen, besuchen Sie unsere <a href="getting-started.html">Getting Started</a>-Seite.</p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Einbindung der Menü- und Seitenleiste -->
+    <script>
+        // Menüleiste laden
+        fetch('includes/menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            })
+            .catch(error => console.error('Fehler beim Laden der Menüleiste:', error));
+
+        // Seitenleiste laden
+        fetch('includes/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sidebar').innerHTML = data;
+            })
+            .catch(error => console.error('Fehler beim Laden der Seitenleiste:', error));
+    </script>
+</body>
+</html>
