@@ -1,0 +1,51 @@
+survey_hawk_logo.png
+
+site_name: SURVEYHAWK DOCS
+repo_url: https://git.i.mercedes-benz.com/LOBERNH/surveyhawk_docs
+theme:
+   name: material
+   logo: assets/survey_hawk_logo.png
+   icon:
+     repo: fontawesome/brands/github
+   palette: 
+     scheme: slate
+     primary: black
+     accent: deep purple   
+   features:
+     - navigation.instant
+     - navigation.tabs
+     - navigation.tracking
+     - navigation.path
+     - navigation.indexes
+     - navigation.expand
+     - search.highlight
+     - search.suggest
+     - content.code.copy
+extra:
+  generator: true
+plugins:
+  - search
+  - awesome-pages
+  - macros
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+####
+# navigation definition and ordering by awesome-pages plugin.
+# definition is done in all .pages files. 
+####
+#nav:
