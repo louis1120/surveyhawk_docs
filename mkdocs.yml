@@ -1,16 +1,14 @@
-survey_hawk_logo.png
-
 site_name: SURVEYHAWK DOCS
 repo_url: https://git.i.mercedes-benz.com/LOBERNH/surveyhawk_docs
 theme:
    name: material
-   logo: assets/survey_hawk_logo.png
+   logo: assets/grau_sh_logo.png
    icon:
      repo: fontawesome/brands/github
    palette: 
-     scheme: slate
+     scheme: default
      primary: black
-     accent: deep purple   
+     accent: black
    features:
      - navigation.instant
      - navigation.tabs
@@ -21,6 +19,17 @@ theme:
      - search.highlight
      - search.suggest
      - content.code.copy
+nav:
+  - Home: index.md
+  - Repository Health: Repository-Health/Repository-Health.md
+  - Guide:
+      - Installation: Guide/Installation.md
+      - Getting Started: Guide/Getting-Started.md
+      - Features: Guide/Features.md
+  - Example: Example/Example.md
+  - Results: Results/Results.md
+  - Contributing: Contributing/Contributing.md
+  - FAQ: FAQ/FAQ.md
 extra:
   generator: true
 plugins:
