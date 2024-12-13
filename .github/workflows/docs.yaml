@@ -1,25 +1,32 @@
-name: Publication of git pages
+name: Deploy MkDocs to GitHub Pages
+
 on:
   push:
     branches:
       - master
       - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy 🚀        
-        uses: actions/checkout@v2
-      - name: setup python
+      # Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      - name: setup cache
-        uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force
+          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install MkDocs and plugins
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-macros-plugin
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
