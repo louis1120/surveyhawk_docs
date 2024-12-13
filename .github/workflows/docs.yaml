@@ -1,11 +1,13 @@
 name: Publication of git pages
 on:
   push:
+    branches:
+      - master
+      - main
   workflow_dispatch:
-#t
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy 🚀        
         uses: actions/checkout@v2
