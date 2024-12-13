@@ -1,24 +1,24 @@
 site_name: SURVEYHAWK DOCS
 repo_url: https://git.i.mercedes-benz.com/LOBERNH/surveyhawk_docs
 theme:
-   name: material
-   logo: assets/grau_sh_logo.png
-   icon:
-     repo: fontawesome/brands/github
-   palette: 
-     scheme: default
-     primary: black
-     accent: black
-   features:
-     - navigation.instant
-     - navigation.tabs
-     - navigation.tracking
-     - navigation.path
-     - navigation.indexes
-     - navigation.expand
-     - search.highlight
-     - search.suggest
-     - content.code.copy
+    name: material
+    logo: assets/grau_sh_logo.png
+    icon:
+      repo: fontawesome/brands/github
+    palette: 
+      scheme: default
+      primary: black
+      accent: black
+    features:
+      - navigation.instant
+      - navigation.tabs
+      - navigation.tracking
+      - navigation.path
+      - navigation.indexes
+      - navigation.expand
+      - search.highlight
+      - search.suggest
+      - content.code.copy
 nav:
   - Home: index.md
   - Introduction: Repository-Health/intro_RH.md
