@@ -1,24 +1,45 @@
-# Willkommen bei Surveyhawk Docs
+# 🦅 Surveyhawk Docs
 
-## **Warum Surveyhawk?**
-In der modernen Softwareentwicklung ist die **Gesundheit von Repositories** entscheidend. 🚀 Doch veraltete Workflows, ineffiziente Prozesse und schlechte Codequalität können Projekte ausbremsen.
-
-### **Die Herausforderung:**
-❌ Langsame Entwicklungsprozesse  
-❌ Unsichtbare Qualitätsprobleme  
-❌ Fehlende Transparenz
+Willkommen in den Dokumentationen zu Surveyhawk! Durch die Navigation dieser Kapitel kannst du die Repository-Gesundheit verstehen, analysieren und optimieren.
 
 ---
 
-## **Unsere Lösung: Surveyhawk** 🦅  
-Surveyhawk ist das Tool, um **Repository-Gesundheit** sichtbar und messbar zu machen. Mit umfassenden **Metriken** und **Prüfungen** unterstützt es Teams dabei, nachhaltigen Code zu entwickeln und Risiken frühzeitig zu erkennen.
+#### [📘 Introduction](Repository-Health/intro_RH.md)
 
-### **Highlights**:
-- **🔍 Echtzeit-Analyse**: Verfolge Aktivität, Qualität und Workflows.
-- **📊 Visualisierungen**: Daten klar und verständlich dargestellt.
-- **✅ Standards**: Automatisierte Prüfungen wie CI/CD, Branch-Protection und mehr.
+## **Repository Gesundheit**
+
+#### [📚 Foundations](Repository-Health/Foundations.md)
 
 ---
 
-## **🎉 Starte jetzt und bringe deine Repositories auf das nächste Level!**
-Surveyhawk – Dein Partner für bessere Codequalität und nachhaltige Entwicklung.
+## **Surveyhawk**
+
+#### [✨ Features](Guide/Features.md)
+
+#### [🔎 Metrics](Guide/Health-Checks/Metrics.md)
+
+---
+
+## **Ergebnisse und Analyse**
+
+#### [📉 Results and Learning](Results/Results.md)
+
+
+---
+
+## **Fazit**
+
+#### [📜 Conclusion](Conclusion/Conclusion.md)
+
+---
+
+
+## **🚀 Weitere Schritte**
+
+[Installation](Guide/Installation.md)    
+
+[Getting-Started](Guide/Getting-Started.md)    
+
+[Contribution](Contributing/Contributing.md)    
+
+[FAQ](FAQ/FAQ.md)  

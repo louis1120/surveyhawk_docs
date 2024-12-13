@@ -21,15 +21,19 @@ theme:
      - content.code.copy
 nav:
   - Home: index.md
-  - Repository Health: Repository-Health/Repository-Health.md
-  - Guide:
-      - Installation: Guide/Installation.md
-      - Getting Started: Guide/Getting-Started.md
-      - Features: Guide/Features.md
-  - Example: Example/Example.md
+  - Introduction: Repository-Health/intro_RH.md
+  - Foundations: Repository-Health/Foundations.md
+  - Features: Guide/Features.md
+  - Metrics: Guide/Health-Checks/Metrics.md
   - Results: Results/Results.md
-  - Contributing: Contributing/Contributing.md
+  - Insights: Results/Insights.md
+  - Conclusion: Conclusion/Conclusion.md
   - FAQ: FAQ/FAQ.md
+  - Installation: Guide/Installation.md
+  - Getting Started: Guide/Getting-Started.md
+  - Contributing: Contributing/Contributing.md
+
+
 extra:
   generator: true
 plugins:
