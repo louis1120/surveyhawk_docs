@@ -20,6 +20,7 @@
   - Schnelleres und zuverlässigeres Bereitstellen von Features und Fixes.
 
 ---
+# Beschriftung der Diagramme erklären
 
 ## **Merges to Main**
 - **Ziel**: Höhere Werte bedeuten **Stabilität** und **Aktualität**.
